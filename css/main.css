@@ -1,0 +1,59 @@
+section{
+    width: 1440px;
+    height: 2960px;
+    background: gray;
+}
+.btConfig{
+    width: 74px;
+    height: 76.08px;
+    transform: translate(52.36px,83.33px);
+}
+.ttlClassic{
+    font-size: 100px;
+    font-style: Arial;
+    transform: translate(292px,100px);
+}
+.imgClassic{
+    width: 1313px;
+    height: 2161px;
+    transform: translate(64px,160px);
+    background:  #ADF3FF;
+}
+.txtClassic{
+    font-size: 100px;
+    font-style: Arial;
+    transform: translate(501px,-1600px);
+}
+.btClassic{
+    width: 240px;
+    height: 240px;
+    transform: translate(600px,-700px);
+    border-radius: 50%;
+    background: white;
+}
+.menu{
+    width: 1440px;
+    height: 243px;
+    background: #61C3FF;
+    transform: translate(0px,-330px);
+}
+.Home{
+width: 148.67px;
+height: 134.57px;
+transform: translate(655px,40px);
+}
+.Rank{
+    width: 148.67px;
+    height: 134.57px;
+transform: translate(100px,45px);
+}
+.Premio{
+    width: 148.67px;
+    height: 134.57px;
+    transform: translate(760px,45px);
+}
+.Arrow{
+    width: 150px;
+    height: 150px;
+    transform: translate(1200px,-1700px);
+}
