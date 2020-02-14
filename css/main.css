@@ -66,7 +66,7 @@ transform: translate(100px,45px);
     text-align: center;
 }
 .Estilo1{
-background: black;
+background:#ADF3FF;
 }
 .Estilo2{
 background: white;
@@ -113,9 +113,36 @@ background: white;
     font-size: 100px;
     font-style: Arial;
 }
-    .menuNiveles{
-        width: 1440px;
-        height: 243px;
-        background: #61C3FF;
-        transform: translate(0px,-565px);
-    }
+.menuNiveles{
+    width: 1440px;
+    height: 243px;
+    background: #61C3FF;
+    transform: translate(0px,-565px);
+}
+#timedNivel1{
+    font-size: 100px;
+    font-style: Arial;
+    transform: translate(598px,318px);
+}
+.Juego2{
+    transform: translate(250px,200px);
+}
+.Tarjeta2{
+    width: 450px;
+    height: 450px;
+    border-radius: 25%;
+    font-size: 100px;
+    color: gray;
+    text-align: center;
+}
+#cerrarJuego2{
+    width: 400px;
+    height: 400px;
+    transform: translate(500px, 250px);
+}
+.timedNivel2{
+    font-size: 100px;
+    font-style: Arial;
+    transform: translate(598px,100px);
+
+}
