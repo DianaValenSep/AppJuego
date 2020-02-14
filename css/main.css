@@ -22,7 +22,7 @@ section{
 .txtClassic{
     font-size: 100px;
     font-style: Arial;
-    transform: translate(501px,-1600px);
+    transform: translate(520px,-1600px);
 }
 .btClassic{
     width: 240px;
@@ -57,3 +57,65 @@ transform: translate(100px,45px);
     height: 150px;
     transform: translate(1200px,-1700px);
 }
+.Tarjeta{
+    width: 518px;
+    height: 518px;
+    border-radius: 25%;
+    font-size: 100px;
+    color: gray;
+    text-align: center;
+}
+.Estilo1{
+background: black;
+}
+.Estilo2{
+background: white;
+}
+.Juego{
+    transform:translate(180px,400px) ;
+}
+#cerrarJuego{
+    width: 400px;
+    height: 400px;
+    transform: translate(510px,850px);
+}
+#txtLevelClassic{
+    font-size: 100px;
+    font-style: Arial;
+    transform: translate(501px,280px);
+}
+.level{
+    width: 545px;
+    height: 545px;
+    border-radius: 50%;
+    background: white;
+    color: gray;
+    text-align: center;
+    font-size: 250px;
+}
+#level1Classic{
+    transform: translate(134px,400px);
+}
+#level2Classic{
+    transform: translate(800px,-150px);
+}
+#level3Classic{
+    transform: translate(460px,-150px);
+}
+#level4Classic{
+    transform: translate(800px,-150px);
+}
+#level5Classic{
+    transform: translate(134px,-680px);
+}
+#txtLevelTimed{
+    transform: translate(564px,362px);
+    font-size: 100px;
+    font-style: Arial;
+}
+    .menuNiveles{
+        width: 1440px;
+        height: 243px;
+        background: #61C3FF;
+        transform: translate(0px,-565px);
+    }
