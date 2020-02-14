@@ -19,12 +19,12 @@ section{
     transform: translate(64px,160px);
     background:  #ADF3FF;
 }
-.txtClassic{
+.txtInicio{
     font-size: 100px;
     font-style: Arial;
     transform: translate(520px,-1600px);
 }
-.btClassic{
+.btInicio{
     width: 240px;
     height: 240px;
     transform: translate(600px,-700px);
@@ -35,7 +35,7 @@ section{
     width: 1440px;
     height: 243px;
     background: #61C3FF;
-    transform: translate(0px,-330px);
+    transform: translate(0px,-340px);
 }
 .Home{
 width: 148.67px;
@@ -74,7 +74,7 @@ background: white;
 .Juego{
     transform:translate(180px,400px) ;
 }
-#cerrarJuego{
+.cerrarJuego{
     width: 400px;
     height: 400px;
     transform: translate(510px,850px);
@@ -84,7 +84,7 @@ background: white;
     font-style: Arial;
     transform: translate(501px,280px);
 }
-.level{
+.Level{
     width: 545px;
     height: 545px;
     border-radius: 50%;
@@ -93,19 +93,19 @@ background: white;
     text-align: center;
     font-size: 250px;
 }
-#level1Classic{
+.level1{
     transform: translate(134px,400px);
 }
-#level2Classic{
+.level2{
     transform: translate(800px,-150px);
 }
-#level3Classic{
+.level3{
     transform: translate(460px,-150px);
 }
-#level4Classic{
+.level4{
     transform: translate(800px,-150px);
 }
-#level5Classic{
+.level5{
     transform: translate(134px,-680px);
 }
 #txtLevelTimed{
@@ -117,7 +117,7 @@ background: white;
     width: 1440px;
     height: 243px;
     background: #61C3FF;
-    transform: translate(0px,-565px);
+    transform: translate(0px,-590px);
 }
 #timedNivel1{
     font-size: 100px;
@@ -135,7 +135,7 @@ background: white;
     color: gray;
     text-align: center;
 }
-#cerrarJuego2{
+.cerrarJuego2{
     width: 400px;
     height: 400px;
     transform: translate(500px, 250px);
