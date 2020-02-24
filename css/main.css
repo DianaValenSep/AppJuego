@@ -1,62 +1,101 @@
+body{
+    margin:0px;
+    border:0px;
+    padding: 0px; 
+}
 section{
-    width: 1440px;
-    height: 2960px;
+    width: 410px;
+    height: 820px;
     background: gray;
+    text-align: center;
+    position: relative;
 }
-.btConfig{
-    width: 74px;
-    height: 76.08px;
-    transform: translate(52.36px,83.33px);
+.titulo{
+    position: absolute;
+    width: 410px;
+    height:30px ;
+    top:10px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.ttl{
-    font-size: 100px;
-    font-style: Arial;
-    transform: translate(292px,100px);
-}
-.imgClassic{
-    width: 1313px;
-    height: 2161px;
-    transform: translate(64px,160px);
+.imgclassic{
+    position:absolute;
+    width: 350px;
+    height: 550px;
+    right: 30px;
+    left: 30px;
+    top: 140px;
     background:  #ADF3FF;
 }
-.txtInicio{
-    font-size: 100px;
-    font-style: Arial;
-    transform: translate(520px,-1600px);
-}
-.btInicio{
-    width: 240px;
-    height: 240px;
-    transform: translate(600px,-700px);
+.btinicio{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 450px;
+    left: 175px;
     border-radius: 50%;
-    background: white;
 }
+.txtinicio{
+    position: absolute;
+    font-size: 35px;
+    font-style: Arial;
+    top: 200px;
+    left: 125px;
+}
+.txttimed{
+    position: absolute;
+    font-size: 35px;
+    font-style: Arial;
+    top: 200px;
+    right: 0px;
+    left: 4px;
+}
+
 .menu{
-    width: 1440px;
-    height: 243px;
+    position: absolute;
+    width: 410px;
+    height: 70px;
     background: #61C3FF;
-    transform: translate(0px,-340px);
+    top:749px;
 }
-.Home{
-width: 148.67px;
-height: 134.57px;
-transform: translate(655px,40px);
+.home{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 10px;
+    left: 184px;
 }
-.Rank{
-    width: 148.67px;
-    height: 134.57px;
-transform: translate(100px,45px);
+.rank{
+    opacity: 0.2;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 11px;
+    left: 66px;
 }
-.Premio{
-    width: 148.67px;
-    height: 134.57px;
-    transform: translate(760px,45px);
+.premio{
+    opacity: 0.2;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 298px;
 }
-.Arrow{
-    width: 150px;
-    height: 150px;
-    transform: translate(1200px,-1700px);
+.arrowclasico{
+    height: 30px;
+    position: relative;
+    top: 371px;
+    left: 149px;
+    width: 40px;
 }
+.arrowtimed{
+    height: 30px;
+    position: relative;
+    top: 371px;
+    width: 40px;
+    left: -149px;
+}
+
 .Tarjeta{
     width: 518px;
     height: 518px;
