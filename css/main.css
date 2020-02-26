@@ -10,11 +10,19 @@ section{
     text-align: center;
     position: relative;
 }
+.btconfig{
+    position: absolute;
+    right: 304px;
+    width: 30px;
+    height: 30px;
+    top:15px;
+    left: 20px;
+}
 .titulo{
     position: absolute;
     width: 410px;
     height:30px ;
-    top:10px;
+    top:30px;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -96,94 +104,248 @@ section{
     left: -149px;
 }
 
+/*Pausa*/
+
+.juego{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 350px;
+    height: 350px;
+}
 .Tarjeta{
-    width: 518px;
-    height: 518px;
     border-radius: 25%;
-    font-size: 100px;
-    color: gray;
-    text-align: center;
+    width: 175px;
+    height: 175px;
 }
 .Estilo1{
-background:#ADF3FF;
+    background:#ADF3FF;
 }
 .Estilo2{
-background: white;
+    background: white;
 }
-.Juego{
-    transform:translate(180px,400px) ;
+.cerrarjuego{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 669px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+
 }
-.cerrarJuego{
-    width: 400px;
-    height: 400px;
-    transform: translate(510px,850px);
+
+/*Pausa*/
+.txtclassic{
+    position: absolute;
+    width: 410px;
+    height:30px ;
+    top: 100px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#txtLevelClassic{
-    font-size: 100px;
-    font-style: Arial;
-    transform: translate(501px,280px);
-}
-.Level{
-    width: 545px;
-    height: 545px;
+.level{
+    position: absolute;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
     background: white;
     color: gray;
-    text-align: center;
-    font-size: 250px;
-    
-    
+    font-size: 40px;
 }
-.level1{
-    transform: translate(134px,400px);
+#level1classic{
+    left: 31px;
+    top: 239px;
 }
-.level2{
-    transform: translate(800px,-150px);
+#level2classic{
+    left: 213px;
+    top:239px;
 }
-.level3{
-    transform: translate(460px,-150px);
+#level3classic{
+    left: 31px;
+    top: 446px;
 }
-.level4{
-    transform: translate(800px,-150px);
+#level4classic{
+    left:213px ;
+    top: 446px;
 }
-.level5{
-    transform: translate(134px,-680px);
+#level1timed{
+    left: 31px;
+    top: 239px;
 }
-#txtLevelTimed{
-    transform: translate(564px,362px);
-    font-size: 100px;
+#level2timed{
+    left: 213px;
+    top:239px;
+}
+#level3timed{
+    left: 31px;
+    top: 446px; 
+}
+#level4timed{
+    left:213px ;
+    top: 446px;
+}
+
+.crono_timed1{
+    font-size: 40px;
     font-style: Arial;
+    position: absolute;
+    top: 104px;
+    left: 162px;
 }
-.menuNiveles{
-    width: 1440px;
-    height: 243px;
-    background: #61C3FF;
-    transform: translate(0px,-590px);
-}
-#timedNivel1{
-    font-size: 100px;
-    font-style: Arial;
-    transform: translate(598px,318px);
-}
-.Juego2{
-    transform: translate(250px,200px);
-}
-.Tarjeta2{
-    width: 450px;
+.juego2{
+    position: absolute;
+    width: 300px;
     height: 450px;
+    left: 57px;
+    top: 200px;
+    
+}
+.tarjeta2{
+    width: 150px;
+    height: 150px;
     border-radius: 25%;
-    font-size: 100px;
-    color: gray;
+}
+.juego3{
+    position: absolute;
+    width: 270px;
+    height: 480px;
+    left: 82px;
+    top: 188px;
+}
+.tarjeta3{
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
+}
+.juego4{
+    position: absolute;
+    width: 350px;
+    height: 466.4px;
+    left: 29px;
+    top: 206px;
+}
+.tarjeta4{
+    width: 116.6px;
+    height: 116.6px;
+    border-radius: 25%;
+}
+#imginstrucciones{
+    position: absolute;
+    width: 380px;
+    height: 642px;
+    left: 15px;
+    top: 78px;
     text-align: center;
+    background: white;
 }
-.cerrarJuego2{
-    width: 400px;
-    height: 400px;
-    transform: translate(500px, 250px);
+.credito{
+    position: absolute;
+    width: 380px;
+    background:white;
+    height: 212px;
+    left: 15px;
 }
-.timedNivel2{
-    font-size: 100px;
-    font-style: Arial;
-    transform: translate(598px,100px);
+#credito1{ 
+    top: 73px;
+}
+#credito2{
+top: 296px;
+}
+#credito3{
+top: 520px;
+}
+.imgcredito{
+    opacity: 0px;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 25%;
+    left: 29px;
+    top: 46px;
+}
+.txtcredito{
+    position: absolute;
+    left: 160px;
+    width: 200px;
+    top: 33px;
+    height:100px;
+    text-align: center;
+    border: 2px solid black;
+    padding-top: 18px;
+}
+
+/*Estos son los estilos de la ventana*/
+#show-modal{
+    transition: all 0.15s linear;
+}
+#show-modal:hover{
+    cursor: pointer;
+}
+.modal{
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: 99999999;
+    background: rgba(0,0,0,0.75);
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.modal .content-modal{
+    width: 380px;
+    position: fixed;
+    left: 264px;
+    margin-top: 99px;
+    top: -100vh;
+    transition: top 0.35s ease;
+    margin-left: -250px;
+    background: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    border-radius: 0% 0% 10% 10%;
+    z-index: 99999999;
 
 }
+.modal h2{
+    text-align: center;
+    color:#444444;
+    margin: 0;
+    padding-top: 8px;
+}
+.modal article{
+    height: 300px;
+    background: #ADF3FF;
+    border-radius: 0% 0% 10% 10%;
+    margin-top: 12px;
+}
+.close-modal{
+    color: black;
+    position: absolute;
+    top: 11px;
+    left: 13px;
+    right: 5px;
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+}
+.modal:target{
+    opacity: 1;
+    top: 0;
+
+}
+.modal:target .content-modal{
+    top: 50px;
+    transition: top 0.35s ease;
+}
+
+
+
+
+
+
