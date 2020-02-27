@@ -343,7 +343,71 @@ top: 520px;
     top: 50px;
     transition: top 0.35s ease;
 }
-
+.pestana{
+    width: 336px;
+    height: 56px;
+    position: absolute;
+    left: 25px;
+    background: white;
+}
+#pestanacreditos{
+    top: 80px;
+}
+#pestanainstrucciones{
+    top: 200px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 267px;
+}
+#botonprovisional{
+    width: 30px;
+    height: 30px;
+    background: purple;
+    position: absolute;
+    top: 724px;
+    left: 325px;
+}
+#titulodone{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    right: 117px;
+}
+#txttiempo{
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    top: 144px;
+    right: 197px;
+}
+#tiempodone{
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    top:136px;
+    right: 122px;
+}
+#continuar{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background: white;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    right: 25px;
+    top: 253px;
+}
 
 
 
